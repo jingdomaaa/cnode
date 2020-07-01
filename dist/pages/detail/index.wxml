@@ -1,0 +1,10 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="detail">
+        <block wx:if="{{showReplyContent}}">
+            <reply-content compid="{{$compid__0}}"></reply-content>
+        </block>
+        <topic-info compid="{{$compid__1}}"></topic-info>
+        <replies compid="{{$compid__2}}"></replies>
+        <button class="replyBtn" bindtap="Reply" data-e-tap-so="this">回复</button>
+    </view>
+</block>

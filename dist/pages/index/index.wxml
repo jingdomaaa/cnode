@@ -1,0 +1,6 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="index">
+        <menu></menu>
+        <topic-list></topic-list>
+    </view>
+</block>

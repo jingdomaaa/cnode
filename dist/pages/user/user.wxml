@@ -1,0 +1,9 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        
+        <head compid="{{$compid__3}}"></head>
+        <panel compid="{{$compid__4}}"></panel>
+        <panel compid="{{$compid__5}}"></panel>
+        <button class="publish_btn" bindtap="publishTopic" data-e-tap-so="this">发布话题</button>
+    </view>
+</block>

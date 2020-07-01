@@ -1,0 +1,5 @@
+<block wx:if="{{$taroCompReady}}">
+    <scroll-view style="{{anonymousState__temp}}" bindscrolltolower="onScrollToLower" scroll-y="{{true}}" data-e-scrolltolower-so="this">
+        <topic wx:for="{{loopArray0}}" wx:for-item="item" wx:for-index="_anonIdx2" compid="{{item.$compid__7}}"></topic>
+    </scroll-view>
+</block>

@@ -1,0 +1,7 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="topiclist-menu">
+        <at-drawer compid="{{$compid__6}}"></at-drawer>
+        <image bindtap="showDrawer" class="image left" src="{{anonymousState__temp}}" data-e-tap-so="this"></image><text>{{currentCata ? currentCata.value : ''}}</text>
+        <image bindtap="toUser" class="image right" src="{{anonymousState__temp2}}" data-e-tap-so="this"></image>
+    </view>
+</block>
